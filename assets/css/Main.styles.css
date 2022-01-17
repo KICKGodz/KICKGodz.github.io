@@ -1,0 +1,44 @@
+html, body {
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     background-color: #2e2e2e;
+     font-family: 'Quicksand', sans-serif;
+     color: white;
+     overflow-x: hidden;
+     overflow-y: hidden; /* Temporary For Coming Soon Page */
+}
+
+/* width */
+::-webkit-scrollbar {
+     width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+     background: clear;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+     background: white;
+     border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+     background: #afafaf;
+}
+
+.divider {
+     aspect-ratio: 960/300;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+}
+
+.curve {
+     background-image: url('/assets/images/wave.svg');
+}

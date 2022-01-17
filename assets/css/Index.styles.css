@@ -1,0 +1,50 @@
+.container {
+     display: grid;
+     place-items: center;
+     background-color: #3e3e3e;
+     height: 60%;
+}
+
+.plate {
+     background-color: #2e2e2e;
+     border-radius: 25px;
+     width: 50%;
+     height: 15rem;
+     margin-top: 20px;
+     display: grid;
+     place-items: center;
+     position: relative;
+}
+
+.title {
+     font-size: 65px;
+     text-align: center;
+     position: relative;
+     top: 0px;
+     transition: ease 0.5s;
+}
+
+.plate:hover .title {
+     top: -30px;
+}
+
+.subtitle {
+     position: absolute;
+     font-size: 30px;
+     bottom: 20px;
+     opacity: 0;
+     transition: ease 0.5s;
+}
+
+.plate:hover .subtitle {
+     opacity: 0.5;
+}
+
+.links {
+     font-size: 20px;
+     text-decoration: none;
+     padding: 15px;
+     background-color: #2e2e2e;
+     color: white;
+     border-radius: 5px;
+}
